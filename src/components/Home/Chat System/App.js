@@ -146,9 +146,12 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col bg-white dark:bg-coolDark-500 dark:text-white transition-colors" style={{
-      height: "calc(100% - var(--topbar-height)*1.6)"
-    }}>
+    <div
+      className="flex flex-col bg-white border-0 dark:bg-coolDark-500 dark:text-white transition-colors"
+      style={{
+        height: "calc(100% - var(--topbar-height)*1.6)",
+      }}
+    >
       <header
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: "var(--topbar-height)" }}
@@ -173,11 +176,14 @@ function App() {
       </header>
       <main
         className="flex-1 bg-dark"
-        style={{ maxHeight: "calc(100% - var(--topbar-height))", width: "100%" }}
+        style={{
+          maxHeight: "calc(100% - var(--topbar-height))",
+          width: "100%",
+        }}
       >
         {renderContent()}
       </main>
-    </div >
+    </div>
   );
 }
 

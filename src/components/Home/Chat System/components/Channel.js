@@ -51,15 +51,15 @@ const Channel = ({ user = null }) => {
   };
 
   return (
-    <div className="flex flex-col h-full m-auto" style={{ maxWidth: "1050px" }}>
+    <div className="flex flex-col h-full  m-auto" style={{ maxWidth: "720px" }}>
       <div className="overflow-auto hide-scrollbar h-full">
         <div className="chat-wrapper w-100 mx-auto">
           <div className="border-b dark:border-gray-600 border-gray-200 py-8 mb-4">
             <div className="font-bold text-3xl text-center">
-              <h3 className="mb-1 font-bold">Welcome to</h3>
-              <h3 className="mb-3 font-bold">React FireChat</h3>
+              <h4 className="mb-1 font-bold">Welcome to</h4>
+              <h4 className="mb-2 font-bold">React FireChat</h4>
             </div>
-            <p className="text-gray-400 text-center">
+            <p className="text-gray-400 text-sm text-center">
               This is the beginning of this chat.
             </p>
           </div>
@@ -99,7 +99,7 @@ const Channel = ({ user = null }) => {
           </button>
         </form>
       </div>
-    </div >
+    </div>
   );
 };
 
