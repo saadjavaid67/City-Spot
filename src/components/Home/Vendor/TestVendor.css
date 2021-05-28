@@ -1,0 +1,11 @@
+.cen {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+.span-cen {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 2rem;
+}

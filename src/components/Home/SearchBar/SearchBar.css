@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --main-color: #e52e80;
+  --nav1-color: #65b2a6;
+  --nav2-color: #c4e3de;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+li {
+  list-style-type: none;
+
+  margin: 0 2vw;
+}
+.font-style,
+text-dec {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: white;
+  align-items: center;
+  /* margin-left: 1.3rem; */
+}
+li a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 1.3rem; */
+  color: white;
+  list-style-type: none;
+}
+.text-dec a {
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 1.3rem; */
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  list-style-type: none;
+}
+.text-dec a:hover {
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 1.3rem; */
+  color: var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
+  list-style-type: none;
+}

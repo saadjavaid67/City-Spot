@@ -1,0 +1,12 @@
+.next-btn :hover {
+  text-decoration: none;
+}
+.next-btn-div a:hover {
+  text-decoration: none;
+}
+.next-btn-a :hover {
+  text-decoration: none;
+}
+.hide-nav {
+  display: none;
+}
